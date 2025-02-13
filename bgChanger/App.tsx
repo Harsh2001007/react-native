@@ -26,7 +26,7 @@ export default function App(): JSX.Element {
       <View style={[styles.container, {backgroundColor: randomBgc}]}>
         <TouchableOpacity onPress={generateColor}>
           <View style={styles.actionBtn}>
-            <Text style={styles.actionBtnText}>Press Me !</Text>
+            <Text style={styles.actionBtnText}>click Me !</Text>
           </View>
         </TouchableOpacity>
       </View>

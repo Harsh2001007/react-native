@@ -22,7 +22,7 @@ export default function BMIResultView({bmiValue, bmiType, resetMethod}) {
             marginTop: hp(2),
             paddingHorizontal: wp(4),
           }}>
-          Your BMI is {bmiValue}
+          Your calculated BMI is {bmiValue}
         </Text>
         <Text
           style={{
